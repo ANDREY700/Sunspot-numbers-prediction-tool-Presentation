@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sun activities prediction</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Sun activities prediction">
+  <meta name="author" content="Andrey ABRAMOV">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Sun activities prediction</h1>
+    <h2>Developing Data Product, Course Project</h2>
+    <p>Andrey ABRAMOV<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Idea of sunspot numbers prediction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The idea of computing sunspot numbers was originated by Rudolf Wolf in 1848[1] in Zurich, Switzerland and, thus, the procedure he initiated bears his name (or place). The combination of sunspots and their grouping is used because it compensates for variations in observing small sunspots.
+The relative sunspot number R is computed using the formula (collected as a daily index of sunspot activity):</p>
+
+<p>R=k(10g+s),</p>
+
+<p>where</p>
+
+<p>s is the number of individual spots,</p>
+
+<p>g is the number of sunspot groups, and</p>
+
+<p>k is a factor that varies with location and instrumentation (also known as the observatory factor or the personal reduction coefficient K).</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>Sun activities prediction</h2>
+  </hgroup>
+  <article data-timings="">
+    <ul>
+<li>solar activity is predicted by analyzing recent and real-time solar data, acquired by space-based and ground–based instruments. The actual forecast process is very similar to the more familiar terrestrial weather prediction activities: taking data, ingesting the data into models, and then, after analysis and scrutiny by forecasters, formulating the actual predictions.</li>
+<li>in my Project I will use two different data set and parameters set up for model calculation.</li>
+<li>this project is not supposed to estimate the quality of a model or comparison of models quality based on different initial data</li>
+</ul>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>How to use it?</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>Follow for next steps:</p>
+
+<ul>
+<li>1. choose the initil data set at the left panel</li>
+<li>2. choose the three initial parameters for new model: autoregressive, differencing and moving-average factors</li>
+</ul>
+
+<p>At the notebook pages you will find the prediction result for the sunspot numbers based on choosed parameters.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Thank you!</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code class="r">  publish(title = &#39;Sunspot prediction tool&#39;, &#39;index.html&#39;, host = &#39;rpubs&#39;)
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-5" style="background:;">
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Idea of sunspot numbers prediction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Sun activities prediction'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='How to use it?'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Thank you!'>
+         4
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=5 title='NA'>
+         5
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
