@@ -53,7 +53,7 @@ At the notebook pages you will find the prediction result for the sunspot number
 ## Thank you!
 
 ```r
-  publish(title = 'Sunspot prediction tool', 'index.html', host = 'rpubs')
+  # publish(user = "ANDRE700", repo = "Sunspot-numbers-prediction-tool-Presentation")
 ```
 
 ---
