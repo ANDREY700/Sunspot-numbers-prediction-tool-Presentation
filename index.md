@@ -21,11 +21,11 @@ R=k(10g+s),
 
 where
 
-s is the number of individual spots,
+ - s is the number of individual spots,
 
-g is the number of sunspot groups, and
+ - g is the number of sunspot groups, and
 
-k is a factor that varies with location and instrumentation (also known as the observatory factor or the personal reduction coefficient K).
+ - k is a factor that varies with location and instrumentation (also known as the observatory factor or the personal reduction coefficient K).
 
 
 
@@ -33,9 +33,9 @@ k is a factor that varies with location and instrumentation (also known as the o
 
 ## Sun activities prediction
 
- - solar activity is predicted by analyzing recent and real-time solar data, acquired by space-based and ground–based instruments. The actual forecast process is very similar to the more familiar terrestrial weather prediction activities: taking data, ingesting the data into models, and then, after analysis and scrutiny by forecasters, formulating the actual predictions.
- - in my Project I will use two different data set and parameters set up for model calculation.
- - this project is not supposed to estimate the quality of a model or comparison of models quality based on different initial data
+ * solar activity is predicted by analyzing recent and real-time solar data, acquired by space-based and ground–based instruments. The actual forecast process is very similar to the more familiar terrestrial weather prediction activities: taking data, ingesting the data into models, and then, after analysis and scrutiny by forecasters, formulating the actual predictions.
+ * in my Project I will use two different data set and parameters set up for model calculation.
+ * this project is not supposed to estimate the quality of a model or comparison of models quality based on different initial data
 
 
 ---
@@ -43,18 +43,14 @@ k is a factor that varies with location and instrumentation (also known as the o
 ## How to use it?
 
 Follow for next steps:
- - 1. choose the initil data set at the left panel
+ - 1. choose the initial data set at the left panel
  - 2. choose the three initial parameters for new model: autoregressive, differencing and moving-average factors
 
 At the notebook pages you will find the prediction result for the sunspot numbers based on choosed parameters.
 
 ---
 
-## Thank you!
-
-```r
-  # publish(user = "ANDRE700", repo = "Sunspot-numbers-prediction-tool-Presentation")
-```
-
----
+## Possible result
+![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+  Thank you!
 
